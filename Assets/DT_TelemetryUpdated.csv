@@ -1,45 +1,45 @@
 ,EV Name,VarName,Value,Minimum,Maximum,Units,Warning,ShownWarning,Shortened Names,Human Readable Names
 EV1 Oxygen Time Left,eva1,oxy_time_left,,3600,21600,Time,0,0,O2 Time,EV1 Oxygen Time Left
 EV1 Battery Time Left,eva1,batt_time_left,,3600,10800,Time,0,0,Batt Time,EV1 Battery Time Left
-EV1 Suit Pressure Total,eva1,suit_pressure_total,,3.5,4.5,psi,0,0,Pres Tot,EV1 Suit Pressure Total
-EV1 Oxygen Primary Pressure,eva1,oxy_pri_pressure,,600,3000,psi,0,0,O2 1 Prs,EV1 Oxygen Primary Pressure
-EV1 Heart Rate,eva1,heart_rate,,50,160,bpm,0,0,Hrt Rte,EV1 Heart Rate
+EV1 Suit Pressure Total,eva1,suit_pressure_total,,3.5,4.5,psi,0,0,Prssr Total,EV1 Suit Pressure Total
+EV1 Oxygen Primary Pressure,eva1,oxy_pri_pressure,,600,3000,psi,0,0,O2 1 Prssr,EV1 Oxygen Primary Pressure
+EV1 Heart Rate,eva1,heart_rate,,50,160,bpm,0,0,Heart Rate,EV1 Heart Rate
 EV1 CO2 Production,eva1,co2_production,,0.05,0.15,psi/min,0,0,CO2 Prod,EV1 CO2 Production
-EV1 Scrubber A CO2 Storage,eva1,scrubber_a_co2_storage,,0,60,Percent,0,0,ScrbA Prs,EV1 Scrubber A CO2 Storage
-EV1 Scrubber B CO2 Storage,eva1,scrubber_b_co2_storage,,0,60,Percent,0,0,ScrbB Prs,EV1 Scrubber B CO2 Storage
-EV1 Suit Pressure Oxygen,eva1,suit_pressure_oxy,,3.5,4.1,psi,0,0,O2 Prs,EV1 Suit Pressure Oxygen
-EV1 Suit Pressure CO2,eva1,suit_pressure_co2,,0,0.1,psi,0,0,CO2 Prs,EV1 Suit Pressure CO2
-EV1 Oxygen Secondary Pressure,eva1,oxy_sec_pressure,,600,3000,psi,0,0,O2 2 Prs,EV1 Oxygen Secondary Pressure
-EV1 Helmet Pressure CO2,eva1,helmet_pressure_co2,,0,0.15,psi,0,0,Helm Pres,EV1 Helmet Pressure CO2
-EV1 Oxygen Consumption,eva1,oxy_consumption,,0.05,0.15,psi/min,0,0,O2 Cons,EV1 Oxygen Consumption
-EV1 Fan Primary RPM,eva1,fan_pri_rpm,,20000,30000,rpm,0,0,Fan Pri ,EV1 Fan Primary RPM
+EV1 Scrubber A CO2 Storage,eva1,scrubber_a_co2_storage,,0,60,Percent,0,0,Scrb A Prssr,EV1 Scrubber A CO2 Storage
+EV1 Scrubber B CO2 Storage,eva1,scrubber_b_co2_storage,,0,60,Percent,0,0,Scrb B Prssr,EV1 Scrubber B CO2 Storage
+EV1 Suit Pressure Oxygen,eva1,suit_pressure_oxy,,3.5,4.1,psi,0,0,O2 Prssr,EV1 Suit Pressure Oxygen
+EV1 Suit Pressure CO2,eva1,suit_pressure_co2,,0,0.1,psi,0,0,CO2 Prssr,EV1 Suit Pressure CO2
+EV1 Oxygen Secondary Pressure,eva1,oxy_sec_pressure,,600,3000,psi,0,0,O2 2 Prssr,EV1 Oxygen Secondary Pressure
+EV1 Helmet Pressure CO2,eva1,helmet_pressure_co2,,0,0.15,psi,0,0,Helm Prssr,EV1 Helmet Pressure CO2
+EV1 Oxygen Consumption,eva1,oxy_consumption,,0.05,0.15,psi/min,0,0,O2 Consumpt,EV1 Oxygen Consumption
+EV1 Fan Primary RPM,eva1,fan_pri_rpm,,20000,30000,rpm,0,0,Fan Pri,EV1 Fan Primary RPM
 EV1 Fan Secondary RPM,eva1,fan_sec_rpm,,20000,30000,rpm,0,0,Fan Sec,EV1 Fan Secondary RPM
-EV1 Oxygen Primary Storage,eva1,oxy_pri_storage,,20,100,Percent,0,0,O2 1 Str,EV1 Oxygen Primary Storage
-EV1 Oxygen Secondary Storage,eva1,oxy_sec_storage,,20,100,Percent,0,0,O2 2 Str,EV1 Oxygen Secondary Storage
-EV1 Coolant Storage,eva1,coolant_storage ,,80,100,Percent,0,0,Cool Str,EV1 Coolant Storage
-EV1 Coolant Liquid Temperature,eva1,coolant_liquid_pressure,,100,700,psi,0,0,CoolL Prs,EV1 Coolant Liquid Temperature
-EV1 Coolant Gas Pressure,eva1,coolant_gas_pressure,,0,700,psi,0,0,CoolG Prs,EV1 Coolant Gas Pressure
-EV1 Suit Pressure Other,eva1,suit_pressure_other,,0,0.5,psi,0,0,Pres Othr,EV1 Suit Pressure Other
+EV1 Oxygen Primary Storage,eva1,oxy_pri_storage,,20,100,Percent,0,0,O2 1 Storage,EV1 Oxygen Primary Storage
+EV1 Oxygen Secondary Storage,eva1,oxy_sec_storage,,20,100,Percent,0,0,O2 2 Storage,EV1 Oxygen Secondary Storage
+EV1 Coolant Storage,eva1,coolant_storage,,80,100,Percent,0,0,Cool Storage,EV1 Coolant Storage
+EV1 Coolant Liquid Temperature,eva1,coolant_liquid_pressure,,100,700,psi,0,0,Cool L Prssr,EV1 Coolant Liquid Temperature
+EV1 Coolant Gas Pressure,eva1,coolant_gas_pressure,,0,700,psi,0,0,Cool G Prssr,EV1 Coolant Gas Pressure
+EV1 Suit Pressure Other,eva1,suit_pressure_other,,0,0.5,psi,0,0,Prssr Other,EV1 Suit Pressure Other
 EV1Temperature,eva1,temperature,,50,90,F,0,0,Temp,EV1Temperature
 EV2 Oxygen Time Left,eva2,oxy_time_left,,3600,21600,Time,0,0,O2 Time,EV2 Oxygen Time Left
 EV2 Battery Time Left,eva2,batt_time_left,,3600,10800,Time,0,0,Batt Time,EV2 Battery Time Left
-EV2 Suit Pressure Total,eva2,suit_pressure_total,,3.5,4.5,psi,0,0,Pres Tot,EV2 Suit Pressure Total
-EV2 Oxygen Primary Pressure,eva2,oxy_pri_pressure,,600,3000,psi,0,0,O2 1 Prs,EV2 Oxygen Primary Pressure
-EV2 Heart Rate,eva2,heart_rate,,50,160,bmp,0,0,Hrt Rte,EV2 Heart Rate
+EV2 Suit Pressure Total,eva2,suit_pressure_total,,3.5,4.5,psi,0,0,Prssr Total,EV2 Suit Pressure Total
+EV2 Oxygen Primary Pressure,eva2,oxy_pri_pressure,,600,3000,psi,0,0,O2 1 Prssr,EV2 Oxygen Primary Pressure
+EV2 Heart Rate,eva2,heart_rate,,50,160,bmp,0,0,Heart Rate,EV2 Heart Rate
 EV2 CO2 Production,eva2,co2_production,,0.05,0.15,psi/min,0,0,CO2 Prod,EV2 CO2 Production
-EV2 Scrubber A CO2 Storage,eva2,scrubber_a_co2_storage,,0,60,Percent,0,0,ScrbA Prs,EV2 Scrubber A CO2 Storage
-EV2 Scrubber B CO2 Storage,eva2,scrubber_b_co2_storage,,0,60,Percent,0,0,ScrbB Prs,EV2 Scrubber B CO2 Storage
-EV2 Suit Pressure Oxygen,eva2,suit_pressure_oxy,,3.5,4.1,psi,0,0,O2 Prs,EV2 Suit Pressure Oxygen
-EV2 Suit Pressure CO2,eva2,suit_pressure_co2,,0,0.1,psi,0,0,CO2 Prs,EV2 Suit Pressure CO2
-EV2 Oxygen Secondary Pressure,eva2,oxy_sec_pressure,,600,3000,psi,0,0,O2 2 Prs,EV2 Oxygen Secondary Pressure
-EV2 Helmet Pressure CO2,eva2,helmet_pressure_co2,,0,0.15,psi,0,0,Helm Pres,EV2 Helmet Pressure CO2
-EV2 Oxygen Consumption,eva2,oxy_consumption,,0.05,0.15,psi/min,0,0,O2 Cons,EV2 Oxygen Consumption
-EV2 Fan Primary RPM,eva2,fan_pri_rpm,,20000,30000,rpm,0,0,Fan Pri ,EV2 Fan Primary RPM
+EV2 Scrubber A CO2 Storage,eva2,scrubber_a_co2_storage,,0,60,Percent,0,0,Scrb A Prssr,EV2 Scrubber A CO2 Storage
+EV2 Scrubber B CO2 Storage,eva2,scrubber_b_co2_storage,,0,60,Percent,0,0,Scrb B Prssr,EV2 Scrubber B CO2 Storage
+EV2 Suit Pressure Oxygen,eva2,suit_pressure_oxy,,3.5,4.1,psi,0,0,O2 Prssr,EV2 Suit Pressure Oxygen
+EV2 Suit Pressure CO2,eva2,suit_pressure_co2,,0,0.1,psi,0,0,CO2 Prssr,EV2 Suit Pressure CO2
+EV2 Oxygen Secondary Pressure,eva2,oxy_sec_pressure,,600,3000,psi,0,0,O2 2 Prssr,EV2 Oxygen Secondary Pressure
+EV2 Helmet Pressure CO2,eva2,helmet_pressure_co2,,0,0.15,psi,0,0,Helm Prssr,EV2 Helmet Pressure CO2
+EV2 Oxygen Consumption,eva2,oxy_consumption,,0.05,0.15,psi/min,0,0,O2 Consumpt,EV2 Oxygen Consumption
+EV2 Fan Primary RPM,eva2,fan_pri_rpm,,20000,30000,rpm,0,0,Fan Pri,EV2 Fan Primary RPM
 EV2 Fan Secondary RPM,eva2,fan_sec_rpm,,20000,30000,rpm,0,0,Fan Sec,EV2 Fan Secondary RPM
-EV2 Oxygen Primary Storage,eva2,oxy_pri_storage,,20,100,Percent,0,0,O2 1 Str,EV2 Oxygen Primary Storage
-EV2 Oxygen Secondary Storage,eva2,oxy_sec_storage,,20,100,Percent,0,0,O2 2 Str,EV2 Oxygen Secondary Storage
-EV2 Coolant Storage,eva2,coolant_storage ,,80,100,Percent,0,0,Cool Str,EV2 Coolant Storage
-EV2 Coolant Liquid Temperature,eva2,coolant_liquid_pressure,,100,700,psi,0,0,CoolL Prs,EV2 Coolant Liquid Temperature
-EV2 Coolant Gas Pressure,eva2,coolant_gas_pressure,,0,700,psi,0,0,CoolG Prs,EV2 Coolant Gas Pressure
-EV2 Suit Pressure Other,eva2,suit_pressure_other,,0,0.5,psi,0,0,Pres Othr,EV2 Suit Pressure Other
+EV2 Oxygen Primary Storage,eva2,oxy_pri_storage,,20,100,Percent,0,0,O2 1 Storage,EV2 Oxygen Primary Storage
+EV2 Oxygen Secondary Storage,eva2,oxy_sec_storage,,20,100,Percent,0,0,O2 2 Storage,EV2 Oxygen Secondary Storage
+EV2 Coolant Storage,eva2,coolant_storage,,80,100,Percent,0,0,Cool Storage,EV2 Coolant Storage
+EV2 Coolant Liquid Temperature,eva2,coolant_liquid_pressure,,100,700,psi,0,0,Cool L Prssr,EV2 Coolant Liquid Temperature
+EV2 Coolant Gas Pressure,eva2,coolant_gas_pressure,,0,700,psi,0,0,Cool G Prssr,EV2 Coolant Gas Pressure
+EV2 Suit Pressure Other,eva2,suit_pressure_other,,0,0.5,psi,0,0,Prssr Other,EV2 Suit Pressure Other
 EV2 Temperature,eva2,temperature,,50,90,F,0,0,Temp,EV2 Temperature

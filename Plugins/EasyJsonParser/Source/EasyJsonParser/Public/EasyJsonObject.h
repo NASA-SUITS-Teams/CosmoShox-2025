@@ -36,12 +36,14 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "EasyJsonParser|ReadValue", meta = (ExpandEnumAsExecs = "Result"))
 	TArray<UEasyJsonObject*> ReadObjects(const FString& AccessString, EEasyJsonParserFound& Result);
 
-
+	UFUNCTION(BlueprintCallable, Category = "EasyJsonParser")
+	TArray<float> ReadFloatArray(const FString& AccessString);
 
 public:
 	UEasyJsonValue* ReadEasyJsonValue(const FString& AccessString);
 
 private:
+
 	bool IsAccessAsArray(const FString& AccessName, FString& ElementName, int32& ArrayIndex);
 	void GetObject(const TSharedPtr<FJsonObject> TargetObject, const FString& PropertyName, TArray<TSharedPtr<FJsonObject>>& Objects);
 	UEasyJsonValue* GetJsonValue(const TSharedPtr<FJsonObject> TargetObject, const FString& PropertyName, int32 ArrayIndex);

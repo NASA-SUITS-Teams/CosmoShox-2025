@@ -1,0 +1,52 @@
+,EV Name,VarName,Value,Min,Max,Units,Warning,ShownWarning,Shortened Names,Human Readable Names
+BatteryLevel,pr,battery_level,0,0,0,percent,FALSE,FALSE,Batt Lvl,Battery Level
+Speed,pr,speed,0,0,18,m/s,FALSE,FALSE,Speed,Speed
+DistanceTraveled,pr,distance_traveled,0,0,0,m,FALSE,FALSE,Dist Trvld,Distance Traveled
+PointOfNoReturn,pr,point_of_no_return,0,0,0,Distance,FALSE,FALSE,PONR,Point Of No Return
+OxygenTank,pr,oxygen_tank,0,25,0,percent,FALSE,FALSE,O2 Tnk,Oxygen Tank
+OxygenLevels,pr,oxygen_levels,0,20,0,percent,FALSE,FALSE,O2 Lvl,Oxygen Levels
+OxygenPressure,pr,oxygen_pressure,0,2997,0,psi,FALSE,FALSE,O2 Pssr,Oxygen Pressure
+CabinPressure,pr,cabin_pressure,0,0,0,psi,FALSE,FALSE,Cbn Pssr,Cabin Pressure
+CabinTemperature,pr,cabin_temperature,0,0,0,C,FALSE,FALSE,Cbn Temp,Cabin Temperature
+PowerConsumptionRate,pr,power_consumption_rate,0,0,0,kWh,FALSE,FALSE,Pwr Consumpt,Power Consumption Rate
+CoolantPressure,pr,pr_coolant_pressure,0,495,501,psi,FALSE,FALSE,Cool Pssr,Coolant Pressure
+CoolantLevel,pr,pr_coolant_level,0,40,45,L,FALSE,FALSE,Cool Lvl,Coolant Level
+CoolantTank,pr,pr_coolant_tank,0,60,99.99,percent,FALSE,FALSE,Cool Tnk,Coolant Tank
+ACFanPrimary,pr,ac_fan_pri,0,29999,30005,rpm,FALSE,FALSE,Fan Pri,AC Fan Primary
+ACFanSecondary,pr,ac_fan_sec,0,29999,30005,rpm,FALSE,FALSE,Fan Sec,AC Fan Secondary
+SolarPanelEfficiency,pr,solar_panel_efficiency,0,0,0,Efficiency,FALSE,FALSE,Slr Eff,Solar Panel Efficiency
+MotorPowerConsumption,pr,motor_power_consumption,0,0,0,kWh,FALSE,FALSE,Mtr Consumpt,Motor Power Consumption
+DistanceFromBase,pr,distance_from_base,0,0,2500,m,FALSE,FALSE,Base Dist,Distance From Base
+Pitch,pr,pitch,0,0,50,deg,FALSE,FALSE,Pitch,Pitch
+Roll,pr,roll,0,0,50,deg,FALSE,FALSE,Roll,Roll
+Heading,pr,heading,0,0,0,deg,FALSE,FALSE,Headng,Heading
+ExternalTempature ,pr,external_temp,0,0,0,C,FALSE,FALSE,Ext Temp,External Tempature 
+TerrainCondition,pr,terrain_condition,0,0,0,Terrain,FALSE,FALSE,Terrain Cond,Terrain Condition
+SolarPanel DustAccumulation,pr,solar_panel_dust_accum,0,0,25,percent,FALSE,FALSE,Slr Dst accum,Solar Panel  Dust Accumulation
+ACHeating,pr,ac_heating,0,0,1,Yes/No,FALSE,FALSE,AC Heating,AC Heating
+ACCooling,pr,ac_cooling,0,0,1,Yes/No,FALSE,FALSE,AC Cooling,AC Cooling
+CO2Scrubber,pr,co2_scrubber,0,0,1,Yes/No,FALSE,FALSE,CO2 Scrubber,CO2 Scrubber
+LightsOn,pr,lights_on,0,0,1,Yes/No,FALSE,FALSE,Lights On,Lights On
+InternalLights,pr,internal_lights_on,0,0,1,Yes/No,FALSE,FALSE,Internal Lights,Internal Lights
+Brakes,pr,brakes,0,0,1,Yes/No,FALSE,FALSE,Brakes,Brakes
+InSunlight,pr,in_sunlight,0,0,1,Yes/No,FALSE,FALSE,In Sunlight,In Sunlight
+Throttle,pr,throttle,0,0,0,Forward/Reverse,FALSE,FALSE,Throttle,Throttle
+Steering,pr,steering,0,0,0,Left/Right,FALSE,FALSE,Steering,Steering
+CurrentPositionX,pr,current_pos_x,0,0,0,GeoTiff,FALSE,FALSE,Current Pos X,Current Position X
+CurrentPositionY,pr,current_pos_y,0,0,0,GeoTiff,FALSE,FALSE,Current Pos Y,Current Position Y
+CurrentAlternatePosition,pr,current_pos_alt,0,0,0,GeoTiff,FALSE,FALSE,Current Alt Pos,Current Alternate Position
+SurfaceIncline,pr,surface_incline,0,0,50,deg,FALSE,FALSE,Surface Incline,Surface Incline
+FanPrimary,pr,fan_pri,0,0,1,Yes/No,FALSE,FALSE,Fan Primary,Fan Primary
+Radiator,pr,radiator,0,0,1,Yes/No,FALSE,FALSE,Radiator,Radiator
+MissionElapsedTime,pr,mission_elapsed_time,0,0,0,Time,FALSE,FALSE,Time Elapsed,Mission Elapsed Time
+MissionPlannedTime,pr,mission_planned_time,0,0,0,Time,FALSE,FALSE,Time Planned,Mission Planned Time
+SwitchDestination,pr,switch_dest,0,0,0,Yes/No,FALSE,FALSE,Switch Dest,Switch Destination
+DestinationX,pr,dest_x,0,0,0,GeoTiff,FALSE,FALSE,Dest X,Destination X
+DestinationY,pr,dest_y,0,0,0,GeoTiff,FALSE,FALSE,Dest Y,Destination Y
+DustWiper,pr,dust_wiper,0,0,1,Yes/No,FALSE,FALSE,Dust Wiper,Dust Wiper
+SimulationRunning,pr,sim_running,0,0,1,Yes/No,FALSE,FALSE,Sim Running,Simulation Running
+SimulationPaused,pr,sim_paused,0,0,1,Yes/No,FALSE,FALSE,Sim Paused,Simulation Paused
+SimulationCompleted,pr,sim_completed,0,0,1,Yes/No,FALSE,FALSE,Sim Completed,Simulation Completed
+Latitude,pr,latitude,0,0,0,Deg,FALSE,FALSE,Latitude,Latitude
+Longitude,pr,longitude,0,0,0,Deg,FALSE,FALSE,Longitude,Longitude
+Lidar,pr,lidar,0,0,0,N/A,FALSE,FALSE,Lidar,Lidar

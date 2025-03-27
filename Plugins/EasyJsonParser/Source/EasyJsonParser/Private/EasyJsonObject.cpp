@@ -99,6 +99,65 @@ TArray<UEasyJsonObject*> UEasyJsonObject::ReadObjects(const FString& AccessStrin
 	return foundElements;
 }
 
+
+TArray<float> UEasyJsonObject::ReadFloatArray(const FString& AccessString)
+{
+	TArray<float> FloatArray;
+
+	TArray<FString> Accessers;
+	AccessString.ParseIntoArray(Accessers, TEXT("."), true);
+
+	auto parentNode = InnerObject;
+
+	for (auto accesseName : Accessers)
+	{
+		if (!parentNode) break;
+
+		auto beforeParentNode = parentNode;
+
+		FString propertyName;
+		int32 arrayIndex = 0;
+		bool isArray = IsAccessAsArray(accesseName, propertyName, arrayIndex);
+
+		if (parentNode->HasField(propertyName))
+		{
+			if (accesseName.Equals(Accessers.Last()))
+			{
+				const TArray<TSharedPtr<FJsonValue>>* JsonArray;
+				if (parentNode->TryGetArrayField(propertyName, JsonArray))
+				{
+					for (const auto& JsonValue : *JsonArray)
+					{
+						float FloatValue;
+						if (JsonValue->TryGetNumber(FloatValue))
+						{
+							FloatArray.Add(FloatValue);
+						}
+					}
+				}
+				break;
+			}
+			else
+			{
+				TArray<TSharedPtr<FJsonObject>> Objects;
+				GetObject(parentNode, propertyName, Objects);
+
+				if (Objects.Num() > 0)
+				{
+					parentNode = Objects[arrayIndex];
+				}
+			}
+		}
+
+		if (parentNode == beforeParentNode)
+		{
+			break;
+		}
+	}
+
+	return FloatArray;
+}
+
 UEasyJsonValue* UEasyJsonObject::ReadEasyJsonValue(const FString& AccessString)
 {
 	TArray<FString> Accessers;
